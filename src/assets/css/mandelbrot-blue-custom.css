@@ -555,9 +555,11 @@ fieldset {
 iframe {
   border: 0; }
 
-  /* Scopped list reset to sidebar so that .Document-Content can still take advantage of list formatting for better documentation readability. */
+  /* Scopped list reset to sidebar and panels so that .Document-Content can still take advantage of list formatting for better documentation readability. */
 .Navigation ol,
-.Navigation ul {
+.Navigation ul,
+.Browser-controls ol,
+.Browser-controls ul {
   margin: 0;
   padding: 0;
   /* list-style: none; */
