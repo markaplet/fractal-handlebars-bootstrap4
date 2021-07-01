@@ -1,10 +1,10 @@
 .design-tokens-fonts {
-    margin-bottom: @padding-base * 2;
+    margin-bottom: $padding-base * 2;
 
     &__font-family {
         background-color: #eee;
-        margin-bottom: @padding-base / 2;
-        padding: @padding-base;
+        margin-bottom: $padding-base / 2;
+        padding: $padding-base;
     }
 
     &__Serif,
@@ -14,10 +14,10 @@
     }
 
     &__Serif {
-        font-family: @font-family-serif;
+        font-family: $font-family-serif;
     }
 
     &__Sans-Serif {
-        font-family: @font-family-sans-serif;
+        font-family: $font-family-sans-serif;
     }
 }
