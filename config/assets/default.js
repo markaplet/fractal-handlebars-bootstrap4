@@ -65,7 +65,6 @@ const config = {
 
 			'main.js': [
 				'node_modules/jquery/dist/jquery.min.js',
-				'src/docs/fractal-drupal-global.js', // Adds global variable Drupal = false
 				...customComponentsGlobalJS,
 				...bootstrapJS,
 				...customComponentsJS,
