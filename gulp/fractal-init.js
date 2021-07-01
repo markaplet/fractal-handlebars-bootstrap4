@@ -41,7 +41,7 @@ fractal.web.set('static.path', basePath + '/public');
 // Create a cutomized theme for the Fractal UI
 const myCustomisedTheme = mandelbrot({
     skin: 'blue', // Other options: 'aqua' | 'black' | 'blue' | 'default' | 'fuchsia' | 'green' | 'grey' | 'lime' | 'maroon' | 'navy' | 'olive' | 'orange' | 'purple' | 'red' | 'teal' | 'white' | 'yellow'
-    panels: ['html'], // Choose which panels to display and how they're organized. Possible options: 'html' | 'view' | 'context' | 'resources' | 'info' | 'notes'
+    panels: ['html', 'view', 'context', 'notes'], // Choose which panels to display and how they're organized. Possible options: 'html' | 'view' | 'context' | 'resources' | 'info' | 'notes'
     nav: ['docs', 'components'], // show docs above components in the sidebar
     styles: [
         // 'default', // Adds the default Mandelbrot stylesheet
