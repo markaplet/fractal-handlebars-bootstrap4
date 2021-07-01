@@ -3,17 +3,17 @@
 // --------------------------------------------------
 
 // COLORS
-$blue: 	        #000;
-$blue-light:    #000;
-$blue-medium:   #000;
-$blue-dark:     #000;
-$blue-cagov:    #000;
-$green: 	      #000;
-$green-light:   #000;
-$gold: 	        #000;
-$gold-medium:   #000;
-$gold-light:    #000;
-$high-contrast: #000;
+//$blue: 	        #000;
+//$blue-light:    #000;
+//$blue-medium:   #000;
+//$blue-dark:     #000;
+//$blue-cagov:    #000;
+//$green: 	      #000;
+//$green-light:   #000;
+//$gold: 	        #000;
+//$gold-medium:   #000;
+//$gold-light:    #000;
+//$high-contrast: #000;
 
 // == Social Media Brand Colors
 $share-facebook:    #3c5a99;
@@ -38,8 +38,8 @@ $icon-zip-color: #5e5e5e;
 
 // Standard variables used for consistent styling
 $padding-base: 27px;
-$page-margin: 7%;
-$page-margin-xs: 5%;
+// $page-margin: 7%;
+// $page-margin-xs: 5%;
 $screen-max: 1440px;
 
 
@@ -51,15 +51,15 @@ $screen-max: 1440px;
 
 // $white:    #fff !default;
 // $gray-100: #f8f9fa !default;
-$gray-200: #eeeeee;
+// $gray-200: #eeeeee;
 // $gray-300: #dee2e6 !default;
-$gray-400: #B2B2B2;
+// $gray-400: #B2B2B2;
 // $gray-500: #adb5bd !default;
 // $gray-600: #6c757d !default;
 // $gray-700: #495057 !default;
 // $gray-800: #343a40 !default;
 // $gray-900: #212529 !default;
-$black:    #000 !default;
+// $black:    #000 !default;
 
 // $grays: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -110,7 +110,7 @@ $black:    #000 !default;
 //   $colors
 // );
 
-$primary:       $blue;
+//$primary:       $blue;
 // $secondary:     $gray-600 !default;
 // $success:       $green !default;
 // $info:          $cyan !default;
@@ -151,7 +151,7 @@ $primary:       $blue;
 // Quickly modify global styling by enabling or disabling optional features.
 
 // $enable-caret:                                true !default;
-$enable-rounded:                              false;
+// $enable-rounded:                              false;
 // $enable-shadows:                              false !default;
 // $enable-gradients:                            false !default;
 // $enable-transitions:                          true !default;
@@ -206,16 +206,16 @@ $enable-rounded:                              false;
 // Settings for the `<body>` element.
 
 // $body-bg:                   $white !default;
-$body-color:                $black;
+// $body-color:                $black;
 
 
 // Links
 //
 // Style anchor elements.
 
-$link-color:                              $blue;
+//$link-color:                              $blue;
 // $link-decoration:                         none !default;
-$link-hover-color:                        $blue-dark;
+//$link-hover-color:                        $blue-dark;
 // $link-hover-decoration:                   underline !default;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 // $emphasized-link-hover-darken-percentage: 15% !default;
@@ -232,13 +232,13 @@ $link-hover-color:                        $blue-dark;
 // Define the minimum dimensions at which your layout will change,
 // adapting to different screen sizes, for use in media queries.
 
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: $screen-max
-);
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: $screen-max
+// );
 
 // @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 // @include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
@@ -248,12 +248,12 @@ $grid-breakpoints: (
 //
 // Define the maximum width of `.container` for different screen sizes.
 
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: $screen-max - 60px
-);
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: $screen-max - 60px
+// );
 
 // @include _assert-ascending($container-max-widths, "$container-max-widths");
 
@@ -263,7 +263,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 // $grid-columns:                12 !default;
-$grid-gutter-width:           $padding-base * 2;
+// $grid-gutter-width:           $padding-base * 2;
 
 
 // Components
@@ -317,35 +317,35 @@ $grid-gutter-width:           $padding-base * 2;
 $font-family-sans-serif:    "Source Sans Pro", Helvetica, Arial, sans-serif;
 $font-family-serif:    $font-family-sans-serif; // For this project we're not using a serif font. // This veriable is not in the original Bootstrap _variables.scss
 // $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-// $font-family-base:            $font-family-sans-serif !default;
+$font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+// $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 // $font-size-lg:                $font-size-base * 1.25 !default;
 // $font-size-sm:                $font-size-base * .875 !default;
 
 // $font-weight-lighter:         lighter !default;
 // $font-weight-light:           300 !default;
 // $font-weight-normal:          400 !default;
-$font-weight-semi-bold:       600;
-$font-weight-bold:            700;
+// $font-weight-semi-bold:       600;
+// $font-weight-bold:            700;
 // $font-weight-bolder:          bolder !default;
 
 // $font-weight-base:            $font-weight-normal !default;
 // $line-height-base:            1.5 !default;
 
-$h1-font-size:                $font-size-base * 3.75;
-$h2-font-size:                $font-size-base * 3 !default;
-$h3-font-size:                $font-size-base * 2.25 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.125 !default;
-$h6-font-size:                $font-size-base !default;
+// $h1-font-size:                $font-size-base * 3.75;
+// $h2-font-size:                $font-size-base * 3 !default;
+// $h3-font-size:                $font-size-base * 2.25 !default;
+// $h4-font-size:                $font-size-base * 1.5 !default;
+// $h5-font-size:                $font-size-base * 1.125 !default;
+// $h6-font-size:                $font-size-base !default;
 
-$headings-margin-bottom:      0.5em;
+// $headings-margin-bottom:      0.5em;
 // $headings-font-family:        null !default;
-$headings-font-weight:        $font-weight-bold;
+// $headings-font-weight:        $font-weight-bold;
 // $headings-line-height:        1.2 !default;
-$headings-color:              $blue-dark;
+//$headings-color:              $blue-dark;
 
 // $display1-size:               6rem !default;
 // $display2-size:               5.5rem !default;
