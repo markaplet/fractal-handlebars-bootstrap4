@@ -1,0 +1,74 @@
+{
+	"title": "Alerts",
+	"hidden": false,
+    "status": "wip",
+    "context": {
+        "alertModifier": ""
+    },
+	"variants": [
+		{
+			"name": "success",
+			"context": {
+				"alertModifier": "alert-success d-flex align-items-center",
+				"alertDismissible": true,
+				"alertPre": {
+					"alertPreModifier": "icon-cog mr-3"
+				},
+				"alertMain": {
+					"alertText": "This is an example of a <strong>success</strong> alert. For more information, please <a href=\"#\">read more</a>"
+				}
+			}
+		},
+		{
+			"name": "info",
+			"context": {
+				"alertModifier": "alert-info d-flex align-items-center",
+				"alertPre": {
+					"alertPreModifier": "icon-cog mr-3"
+				},
+				"alertMain": {
+					"alertText": "This is an example of an <strong>info</strong> alert. For more information, please <a href=\"#\">read more</a>"
+				}
+			}
+		},
+		{
+			"name": "warning",
+			"context": {
+				"alertModifier": "alert-warning d-flex align-items-center",
+				"alertPre": {
+					"alertPreModifier": "icon-cog mr-3"
+				},
+				"alertMain": {
+					"alertText": "This is an example of a <strong>warning</strong> alert. For more information, please <a href=\"#\">read more</a>"
+				}
+			}
+		},
+		{
+			"name": "error",
+			"context": {
+				"alertModifier": "alert-danger d-flex align-items-center",
+				"alertPre": {
+					"alertPreModifier": "icon-cog mr-3"
+				},
+				"alertMain": {
+					"alertText": "This is an example of a <strong>danger</strong> alert. For more information, please <a href=\"#\">read more</a> Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+				}
+			}
+		},
+		{
+			"name": "error-top-bar",
+			"context": {
+				"alertModifier": "alert-danger alert-bar d-flex align-items-center",
+				"alertDismissible": true,
+				"alertPre": {
+					"alertPreModifier": "icon-cog mr-3"
+				},
+				"alertMain": {
+					"alertText": "This is an example of a <strong>top bar alert</strong> alert. For more information, please <a href=\"/components/detail/alert--error-top-bar\" target=\"_parent\">read more</a>"
+				}
+			}
+		}
+	]
+}
+
+

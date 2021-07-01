@@ -1,0 +1,22 @@
+<div class="alert{{#if alertModifier}} {{alertModifier}}{{/if}}{{#if alertDismissible}} alert-dismissible fade show{{/if}}" role="alert">
+    {{#if alertPre}}
+        <div class="alert__pre{{#if alertPre.alertPreModifier}} {{alertPre.alertPreModifier}}{{/if}}">
+            {{#> alertPre }}
+            {{/alertPre}}
+        </div>
+    {{/if}}
+    {{#if alertMain}}
+    <div class="alert__main{{#if alertMain.alertMainModifier}} {{alertMain.alertMainModifier}}{{/if}}">
+        {{#> alertMain }}
+           <div class="rich-text">{{{alertMain.alertText}}}</div>
+            {{#if alertDismissible}}<button type="button" class="close" data-dismiss="alert" aria-label="Dismiss Alert"><span class="alert-close" aria-hidden="true"></span></button>{{/if}}
+        {{/ alertMain }}
+    </div>
+    {{/if}}
+    {{#if alertPost}}
+        <div class="alert__post{{#if alertPost.alertPostModifier}} {{alertPost.alertPostModifier}}{{/if}}">
+            {{#> alertPost }}
+            {{/alertPost}}
+        </div>
+    {{/if}}
+</div>

@@ -5,7 +5,7 @@ module.exports = [
     // 'src/components/**/abstract-event/css/**/*.scss',
     // 'src/components/**/accordion-item/css/**/*.scss',
     // 'src/components/**/accordion/css/**/*.scss',
-    // 'src/components/**/alert/css/**/*.scss',
+    'src/components/**/alert/css/**/*.scss',
     // 'src/components/**/anything-grid/css/**/*.scss',
     // 'src/components/**/branding/css/**/*.scss',
     // 'src/components/**/breadcrumbs/css/**/*.scss',
