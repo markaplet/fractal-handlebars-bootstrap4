@@ -1,0 +1,40 @@
+{
+    "hidden": true,
+    "status": "wip",
+	"context": {
+        "colors": [
+            {
+                "varName": "blue",
+                "hexCode": "#0066BA"
+            },
+            {
+                "varName": "blue-dark",
+                "hexCode": "#002F6D"
+            },
+            {
+                "varName": "blue-bright",
+                "hexCode": "#40B4E5"
+            },
+            {
+                "varName": "blue-light",
+                "hexCode": "#D9F0FA"
+            },
+            {
+                "varName": "gold",
+                "hexCode": "#FFB600"
+            },
+            {
+                "varName": "gold-light",
+                "hexCode": "#FFE299"
+            },
+            {
+                "varName": "gray",
+                "hexCode": "#555555"
+            },
+            {
+                "varName": "gray-light",
+                "hexCode": "#B2B2B2"
+            }
+        ]
+    }
+}

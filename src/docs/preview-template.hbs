@@ -1,0 +1,36 @@
+<!doctype html>
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if (gt IE 9)]><!-->
+<html class="fractal" lang="en">
+<!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>{{_target.label}} | {{_config.project.title}}</title>
+        {{!-- <link href="/assets/css/design-tokens.css" rel="stylesheet"> --}}
+
+        {{render '@head'}}
+
+        <style>
+            html { box-sizing: content-box; margin: 25px; background: none; overflow-x: hidden; }
+            body { box-sizing: content-box; background: none; border: 1px dashed black; margin: 0 auto; height: 100vh; width: auto; }
+        </style>
+    </head>
+    <body>
+
+    {{{ body }}}
+
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+
+	<script src="{{path '/assets/js/main.js'}}"></script>
+
+	{{!-- Allows links within pages in Fractal to load other pages in Fractal --}}
+	<script src="/assets/js/docs.js"></script>
+
+	{{!-- Allows placeholder images to be generated using data-src="holder.js/300x200"  --}}
+	<script src="/assets/js/holder-modified.js"></script>
+	</body>
+</html>

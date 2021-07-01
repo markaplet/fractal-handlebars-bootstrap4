@@ -1,0 +1,1 @@
+_Sometimes it's useful to see if the design for this project is similar to a past project. If so, you can copy the CSS from that project and use it as a starting point for the new project._

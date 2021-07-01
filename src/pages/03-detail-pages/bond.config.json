@@ -1,0 +1,102 @@
+{
+	"_layout": "default",
+    "hidden": true,
+	"status": "wip",
+	"context": {
+        "breadcrumbs": {
+            "homeLinkName": "Home",
+            "homeLinkURL": "./index.html",
+            "parentLinks": [
+                {
+                    "parentLinkName": "Bonds Oversight",
+                    "parentLinkURL": "./bonds-oversight.html"
+                }
+            ],
+            "currentLinkName": "Proposition 12",
+            "currentLinkURL": "./bond.html"
+        },
+		"pageBanner": {
+			"heading": "Proposition 12",
+			"headingLevel": "h1"
+        },
+        "richText": "<h2>Overview</h2><p class=\"rich-text--featured-content\">In partnership with the California Natural Resources Agency, the Department of Finance, Office of State Audits and Evaluations, developed this bond accountability guide. This document provides guidance on bond accountability and the bond audit process. The first section is designed to assist departments administering bond funds by providing examples and resources of project management procedures developed and used by various state and federal agencies.</p><p>For more information, <a href=\"#\">download the Bond Language PDF</a>.</p><figure class=\"figure-caption\" itemscope itemtype=\"http://schema.org/ImageObject\"><div class=\"figure-caption__image\"><div><img src=\"/assets/img/cnra/demo/bond.png\" class=\"img-responsive\" alt=\"\"></div></div><figcaption class=\"figure-caption__caption\" itemprop=\"caption\">Brad Freeman Bike Trail</figcaption></figure>",
+        "localNavPanel": {
+            "panel": {
+                "localNav": {
+                    "heading": "Bonds Oversight",
+                    "headingLevel": "h2",
+                    "isCollapsable": false,
+                    "responsiveContainer": ".page-banner-content",
+                    "responsivePosition": "bottom",
+                    "parentLinks": [
+                        {
+                            "isActive": false,
+                            "link": "./bonds-oversight.html",
+                            "title": "Overview",
+                            "childLinks": ""
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "Proposition 1",
+                            "childLinks": ""
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "Proposition 1E"
+                        },
+                        {
+                            "isActive": true,
+                            "link": "#",
+                            "title": "Proposition 12"
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "Proposition 13"
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "Proposition 40"
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "Proposition 50"
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "Proposition 84"
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "Los Angeles River"
+                        }
+                    ]
+                }
+            }
+        },
+        "panel1": {
+            "modifier": "understated",
+            "panelHeading": "Related Links",
+            "headingLevel": "h2",
+            "panelBody": "<p><a href=\"#\">Proposition 12 Allocation Balance Report</a></p><p><a href=\"#\">Safe Neighborhood Parks, Clean Water, Clean Air, and Coastal Protection Bond Act of 2000</a></p>"
+        },
+        "panel2": {
+            "modifier": "understated",
+            "panelHeading": "Balances",
+            "headingLevel": "h2",
+            "panelBody": "<p><a href=\"#\">Proposition 12 Allocation Balance Report</a></p>"
+        },
+        "panel3": {
+            "modifier": "understated",
+            "panelHeading": "Bond Language",
+            "headingLevel": "h2",
+            "panelBody": "<p><a href=\"#\">Safe Neighborhood Parks, Clean Water, Clean Air, and Coastal Protection Bond Act of 2000</a></p>"
+        }
+	}
+}

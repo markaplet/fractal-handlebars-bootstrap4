@@ -1,0 +1,45 @@
+.test__flexbox {
+  // Not supported by IE10/11: flex-wrap, flex-flow, align-content, justify-content
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+
+  li {
+    background: lightgray;
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+.test__cssgrid {
+  // Not supported by IE10/11: grid-gap, grid-template-areas
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "box1 box1 box2 box2"
+    "box1 box1 box3 box3"
+    "box1 box1 box4 box4"
+    "box1 box1 box4 box4";
+  grid-gap: 10px;
+
+  .box1 {
+    grid-area: box1;
+  }
+
+  .box2 {
+    grid-area: box2;
+  }
+
+  .box3 {
+    grid-area: box3;
+  }
+
+  .box4 {
+    grid-area: box4;
+  }
+
+  li {
+    background: lightgray;
+  }
+}

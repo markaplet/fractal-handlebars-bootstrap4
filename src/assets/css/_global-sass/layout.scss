@@ -1,0 +1,29 @@
+//----------------------------------------------------------------------------------
+//
+// Styles relating to the layout of the page.
+// 
+//----------------------------------------------------------------------------------
+
+html {
+	display: block;
+	font-size: 100%;
+	height: auto !important; // Overrides style injected by Google Translate
+
+	// IE auto hides scrollbar b/c of Bootstrap responsive "fix" for split screen mode on
+	// Win8 (see https://stackoverflow.com/a/17045936). Setting -ms-overflow-style to
+	// scrollbar sets the scrollbar to always show so that it doens't cover any content.
+	-ms-overflow-style: scrollbar;
+}
+
+body {
+	color: #000;
+	background: #fff;
+	font-size: 100%;
+	max-width: $screen-max;
+	min-height: 0 !important; // Overrides style injected by Google Translate
+	margin: 0 auto;
+	overflow-x: hidden;
+	// position: relative; // Can't use position relative on body, because it messes up the boxes around editable content in Sitecore Experience Editor
+	width: 100%;
+}
+

@@ -1,0 +1,2 @@
+<p>These are all of the icons used on the website. They can be included in LESS files by using the variable name - beginning with the '@' symbol - and a font-family of <code>iconfont</code>.</p>
+{{render '@icons'}}

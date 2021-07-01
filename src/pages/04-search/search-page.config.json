@@ -1,0 +1,390 @@
+{
+	"_layout": "default",
+    "hidden": true,
+	"status": "wip",
+	"context": {
+		"pageBanner": {
+			"modifier": "landing",
+			"heading": "Search Results",
+			"headingLevel": "h1",
+			"leadParagraph": "",
+			"backgroundImageURL": "/assets/img/cnra/demo/page-banner2.jpg"
+		},
+		"searchBar": {
+			"modifier": "context",
+			"headingLevel": "h2",
+            "heading": "Search California Natural Resources Agency",
+			"searchBarItems": [
+				{
+					"siteSearch": {
+						"id": "site-search-search-bar",
+						"label": "Search Term",
+						"headingLevel": "h3",
+						"placeholderText": "Search California Natural Resources Agency",
+						"isDynamicSearch": true,
+						"searchButton": {
+							"modifier": "",
+							"type": "button",
+							"name": "Search",
+							"value": "Search",
+							"text": "Search"
+						}
+					}
+				},
+				{
+					"formSelect": {
+						"inputID": "sort-by-select",
+						"inputLabel": "Sort by",
+						"selectOptions": [
+							{
+								"inputLabel": "Relevance",
+								"inputValue": "Relevance"
+							},
+							{
+								"inputLabel": "Title (A-Z)",
+								"inputValue": "Title (A-Z)"
+							},
+							{
+								"inputLabel": "Title (Z-A)",
+								"inputValue": "Title (Z-A)"
+							}
+						]
+					}
+				},
+				{
+					"formSelect": {
+						"inputID": "show-all-select",
+						"inputLabel": "Show All",
+						"selectOptions": [
+							{
+								"inputLabel": "Content",
+								"inputValue": "Content"
+							},
+							{
+								"inputLabel": "Events",
+								"inputValue": "Events"
+							},
+							{
+								"inputLabel": "News",
+								"inputValue": "News"
+							}
+						]
+					}
+				}
+			]
+		},
+		"searchResults": {
+			"gridModifier": "bordered",
+			"listTitle": "1-10",
+			"listTitleSecondary": "of 150 Results",
+			"isSearchResults": true,
+			"isUpdatedDynamically": true,
+			"hasPagination": true,
+			"navItems": [
+				{
+					"listItems": [
+						{
+							"pageURL": "#",
+							"title": "Coastal Conservancy Grants | California State Coastal Conservancy",
+							"description": "The Coastal Conservancy helps achieve its mission through awarding grants to partner organizations to undertake projects that further its goals. For more..."
+						},
+						{
+							"pageURL": "#",
+							"title": "Local Assistance Grant Program",
+							"description": "Sep 14, 2017 ... The Local Coastal Program Local Assistance Grant Program provides funds to support local governments in completing or updating local..."
+						},
+						{
+							"pageURL": "#",
+							"title": "Whale Tail Grants",
+							"description": "The WHALE TAIL* grants support programs that teach California's children and the general public to value and take action to improve the health of the state's"
+						},
+						{
+							"pageURL": "#",
+							"title": "Current Grant Opportunities | California State Coasta Conservancy",
+							"description": "The State Coastal Conservancy is now accepting applications for its 2019 Sea Otter Recovery Grants. The grants will be funded with monies from the California..."
+						},
+						{
+							"pageURL": "#",
+							"title": "Coastal Conservancy Grants | California State Coastal Conservancy",
+							"description": "The Coastal Conservancy helps achieve its mission through awarding grants to partner organizations to undertake projects that further its goals. For more..."
+						},
+						{
+							"pageURL": "#",
+							"title": "Local Assistance Grant Program",
+							"description": "Sep 14, 2017 ... The Local Coastal Program Local Assistance Grant Program provides funds to support local governments in completing or updating local..."
+						},
+						{
+							"pageURL": "#",
+							"title": "Whale Tail Grants",
+							"description": "The WHALE TAIL* grants support programs that teach California's children and the general public to value and take action to improve the health of the state's"
+						},
+						{
+							"pageURL": "#",
+							"title": "Current Grant Opportunities | California State Coasta Conservancy",
+							"description": "The State Coastal Conservancy is now accepting applications for its 2019 Sea Otter Recovery Grants. The grants will be funded with monies from the California..."
+						},
+						{
+							"pageURL": "#",
+							"title": "Coastal Conservancy Grants | California State Coastal Conservancy",
+							"description": "The Coastal Conservancy helps achieve its mission through awarding grants to partner organizations to undertake projects that further its goals. For more..."
+						},
+						{
+							"pageURL": "#",
+							"title": "Local Assistance Grant Program",
+							"description": "Sep 14, 2017 ... The Local Coastal Program Local Assistance Grant Program provides funds to support local governments in completing or updating local..."
+						}
+					]
+				}
+			],
+			"pagination": {
+				"paginationAriaLabel": "Page Navigation",
+				"paginationPrev": "&laquo;",
+				"paginationPrevURL": "#",
+				"paginationNext": "&raquo;",
+				"paginationNextURL": "#;",
+				"paginationLinks": [
+					{
+						"paginationLinkName": "1",
+						"paginationLinkURL": "#"
+					},
+					{
+						"paginationLinkName": "2",
+						"paginationLinkURL": "#",
+						"paginationLinkActive": "true"
+	
+					},
+					{
+						"paginationLinkName": "3",
+						"paginationLinkURL": "#"
+					}
+				]
+			}
+		},
+		"facets": {
+			"heading": "Filter",
+			"headingLevel": "h2",
+			"isCollapsable": "true",
+			"isResponsive": "true",
+			"breakpoint": "991",
+			"facetList": [
+				{
+					"label": "Filter Category 1",
+					"facetID": "category-1-facets",
+					"facetType": "checkbox",
+					"isExpanded": true,
+					"facetGroup": [
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						}
+					]
+				},
+				{
+					"label": "Filter Category 2",
+					"facetID": "category-2-facets",
+					"facetType": "checkbox",
+					"isExpanded": true,
+					"facetGroup": [
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						}
+					]
+				},
+				{
+					"label": "Filter Category 3",
+					"facetID": "category-3-facets",
+					"facetType": "checkbox",
+					"facetGroup": [
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						}
+					]
+				},
+				{
+					"label": "Filter Category 4",
+					"facetID": "category-4-facets",
+					"facetType": "checkbox",
+					"facetGroup": [
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						}
+					]
+				},
+				{
+					"label": "Filter Category 5",
+					"facetID": "category-5-facets",
+					"facetType": "checkbox",
+					"facetGroup": [
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						},
+						{
+							"label": "Filter item"
+						}
+					]
+				}
+			]
+		}
+	}
+}

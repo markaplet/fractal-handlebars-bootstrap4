@@ -1,0 +1,27 @@
+.design-tokens-icons {
+    > ul {
+        .clearfix();
+        padding: 0 !important;
+    }
+
+    &__icon-sample {
+        float: left;
+        list-style: none !important;
+        margin-right: @padding-base / 2;
+        margin-bottom: @padding-base / 2 !important;
+    }
+
+    &__icon-varname {
+        background-color: #eee;
+        padding: @padding-base;
+        text-align: center;
+        height: 150px;
+        width: 200px;
+
+        &:before {
+            display: block;
+            font-size: 50px;
+            margin-bottom: @padding-base;
+        }
+    }
+}

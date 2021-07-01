@@ -1,0 +1,50 @@
+{
+    "hidden": true,
+    "status": "wip",
+	"context": {
+        "icons": [
+            {
+                "varName": "icon-angle-down"
+            },
+            {
+                "varName": "icon-angle-left"
+            },
+            {
+                "varName": "icon-angle-right"
+            },
+            {
+                "varName": "icon-angle-up"
+            },
+            {
+                "varName": "icon-breadcrumb-bar"
+            },
+            {
+                "varName": "icon-double-angle-left"
+            },
+            {
+                "varName": "icon-double-angle-right"
+            },
+            {
+                "varName": "icon-minus"
+            },
+            {
+                "varName": "icon-plus"
+            },
+            {
+                "varName": "icon-search"
+            },
+            {
+                "varName": "icon-facebook"
+            },
+            {
+                "varName": "icon-instagram"
+            },
+            {
+                "varName": "icon-twitter"
+            },
+            {
+                "varName": "icon-youtube"
+            }
+        ]
+    }
+}

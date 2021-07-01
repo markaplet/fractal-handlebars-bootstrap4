@@ -1,0 +1,92 @@
+{
+    "about": {
+        "navItems": [
+            {
+                "itemName": "Home",
+                "isCurrent": false
+            },
+            {
+                "itemName": "About",
+                "isCurrent": true
+            }
+        ]
+    },
+    "initiatives": {
+        "navItems": [
+            {
+                "itemName": "Home",
+                "isCurrent": false
+            },
+            {
+                "itemName": "About"
+            },
+            {
+                "itemName": "Initiatives",
+                "isCurrent": true
+            }
+        ]
+    },
+    "fundingPrograms": {
+        "navItems": [
+            {
+                "itemName": "Home",
+                "isCurrent": false
+            },
+            {
+                "itemName": "About"
+            },
+            {
+                "itemName": "Initiatives"
+            },
+            {
+                "itemName": "Funding Programs",
+                "isCurrent": true
+            }
+        ]
+    },
+    "bondsOversight": {
+        "navItems": [
+            {
+                "itemName": "Home",
+                "isCurrent": false
+            },
+            {
+                "itemName": "About"
+            },
+            {
+                "itemName": "Initiatives"
+            },
+            {
+                "itemName": "Funding Programs"
+            },
+            {
+                "itemName": "Bonds Oversight",
+                "isCurrent": true
+            }
+        ]
+    },
+    "newsroom": {
+        "navItems": [
+            {
+                "itemName": "Home",
+                "isCurrent": false
+            },
+            {
+                "itemName": "About"
+            },
+            {
+                "itemName": "Initiatives"
+            },
+            {
+                "itemName": "Funding Programs"
+            },
+            {
+                "itemName": "Bonds Oversight"
+            },
+            {
+                "itemName": "Newsroom",
+                "isCurrent": true
+            }
+        ]
+    }
+}

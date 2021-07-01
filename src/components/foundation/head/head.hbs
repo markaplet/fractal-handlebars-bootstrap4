@@ -1,0 +1,99 @@
+{{#if metaCharset}}<meta charset="{{metaCharset}}">{{/if}}
+{{#if metaTitle}}<title>{{metaTitle}}</title>{{/if}}
+{{#if metaAuthor}}<meta name="Author" content="">{{/if}}
+{{#if metaDescription}}<meta name="Description" content="">{{/if}}
+{{#if metaKeywords}}<meta name="Keywords" content="">{{/if}}
+
+{{#if favicon16}}
+	<!-- General purpose 16x16 .ico shortcut icon -->
+	<link rel="icon" href="{{favicon16}}">
+{{/if}}
+
+{{#if favicon32}}
+	<!-- 32x32 .ico shortcut icon -->
+	<link rel="icon" href="{{favicon32}}">
+{{/if}}
+
+
+{{#if faviconTouch57}}
+	<!-- For non-Retina (@1× display) iPhone, iPod Touch, and Android 2.1+ devices: -->
+	<!-- 57×57px -->
+	<link rel="apple-touch-icon-precomposed" href="{{faviconTouch57}}">
+{{/if}}
+
+{{#if faviconTouch72}}
+	<!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{faviconTouch72}}">
+{{/if}}
+
+{{#if faviconTouch76}}
+	<!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{faviconTouch76}}">
+{{/if}}
+
+{{#if faviconTouch114}}
+	<!-- For iPhone with @2× display running iOS ≤ 6: -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{faviconTouch114}}">
+{{/if}}
+
+{{#if faviconTouch120}}
+	<!-- For iPhone with @2× display running iOS ≥ 7: -->
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{faviconTouch120}}">
+{{/if}}
+
+{{#if faviconTouch144}}
+	<!-- For iPad with @2× display running iOS ≤ 6: -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{faviconTouch144}}">
+{{/if}}
+
+{{#if faviconTouch152}}
+	<!-- For iPad with @2× display running iOS ≥ 7: -->
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{faviconTouch152}}">
+{{/if}}
+
+{{#if faviconTouch180}}
+	<!-- For iPhone 6 Plus with @3× display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{faviconTouch180}}">
+{{/if}}
+
+{{#if faviconTouch192}}
+	<!-- For Chrome for Android: -->
+	<link rel="icon" sizes="192x192" href="{{faviconTouch192}}">
+{{/if}}
+
+{{#if faviconTouch196}}
+	<!-- Chrome for Android home screen icon -->
+	<link rel="icon" sizes="196x196" href="{{faviconTouch196}}">
+{{/if}}
+
+{{#if faviconTouch512}}
+	{{!-- LAZY APPROACH TO APPLE & ANDROID SUPPORT. WILL BE DOWNSCALED FOR DEVICES --}}
+	{{!-- IF NO OTHER ICONS ARE SPECIFIED, USE AT LEAST THIS ONE --}}
+	<!-- General use iOS/Android icon, auto-downscaled by devices. -->
+	<link rel="icon" sizes="512x512" href="{{faviconTouch512}}">
+{{/if}}
+
+
+<!-- Use highest compatibility mode -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<!-- for Blackberry, AvantGo -->
+<meta name="MobileOptimized" content="320">
+
+{{#if modernizrPath}}
+	<!-- modernizr.com, feature detection -->
+	<script src="{{modernizrPath}}" type="text/javascript"></script>
+{{/if}}
+
+{{#if customFonts}}
+	<!-- Import Web Fonts Here (ex: Google Fonts) -->
+	{{#each customFonts}}
+		<link href="{{URL}}" rel="stylesheet">
+	{{/each}}
+{{/if}}
+
+{{!-- Do not include the extension with cssPath --}}
+<link href="{{cssPath}}{{#if isMinified}}.min{{/if}}.css" rel="stylesheet">

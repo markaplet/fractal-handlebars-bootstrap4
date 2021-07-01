@@ -1,0 +1,60 @@
+{
+	"_layout": "default",
+    "hidden": true,
+	"status": "wip",
+	"context": {
+        "breadcrumbs": {
+            "homeLinkName": "Home",
+            "homeLinkURL": "./index.html",
+            "currentLinkURL": "./about.html",
+            "currentLinkName": "About"
+        },
+		"pageBanner": {
+			"modifier": "landing",
+			"heading": "About",
+			"headingLevel": "h1",
+			"leadParagraph": "",
+			"backgroundImageURL": "/assets/img/cnra/demo/page-banner1.jpg"
+        },
+		"richText": "<p class=\"rich-text--featured-content\">To restore, protect and manage the state's natural, historical and cultural resources for current and future generations using creative approaches and solutions based on science, collaboration and respect for all the communities and interests involved.</p><h2>What We Do</h2><h3><a href=\"#\">Restoring the Delta and Creating a Clean, Reliable Water Supply</a></h3><p>Restoring the ecological health of the Sacramento-San Joaquin Delta is critical for the protection of all species, aquatic and terrestrial, while providing clean, reliable water to 25 million Californians.</p><h3><a href=\"#\">Protecting Our Ocean and Coast</a></h3><p>Protecting and managing California's 1,100 miles of coastal and ocean resources while safeguarding the diversity and abundance of marine life for generations to come.</p><h3><a href=\"#\">Preservation of Habitat and Critical Ecosystems</a></h3><p>Preserving the habitat of threatened and endangered species while ensuring that California's critical ecosystems are restored, maintained and protected.</p><h3><a href=\"#\">Developing Renewable Energy Sources</a></h3><p>Advancing renewable energy sources to reduce greenhouse gas emissions and decrease California's dependence on fossil fuel and foreign oil.</p><h3><a href=\"#\">Responding to Climate Change</a></h3><p>Safeguarding our state’s people and infrastructure from the effects of climate change.</p><h3><a href=\"#\">Forests</a></h3><p>Protecting our Forests from the Impacts of Climate Change.</p>",
+		"localNavPanel": {
+            "panel": {
+                "localNav": {
+                    "heading": "About",
+                    "headingLevel": "h2",
+                    "isCollapsable": false,
+                    "responsiveContainer": ".page-banner-content",
+                    "responsivePosition": "bottom",
+                    "parentLinks": [
+                        {
+                            "isActive": true,
+                            "link": "./about.html",
+                            "title": "Overview",
+                            "childLinks": ""
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "What We Do"
+                        },
+                        {
+                            "isActive": false,
+                            "link": "#",
+                            "title": "Secretary's Page"
+                        },
+                        {
+                            "isActive": false,
+                            "link": "./our-agencies.html",
+                            "title": "Our Agencies"
+                        },
+                        {
+                            "isActive": false,
+                            "link": "./contact.html",
+                            "title": "Contact"
+                        }
+                    ]
+                }
+            }
+        }
+	}
+}

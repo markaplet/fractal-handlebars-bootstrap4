@@ -1,0 +1,10 @@
+{
+    "title": "Rich Text",
+    "hidden": false,
+    "status": "ready",
+    "context": {
+        "modifier": "",
+        "decorator": "",
+        "text": "<h1>Rich Text (Heading Style 1)</h1><h2>Heading Style 2</h2><h3>Heading Style 3</h3><h4>Heading Style 4</h4><h5>Heading Style 5</h5><h6>Heading Style 6</h6><p class=\"lead\">This is text with class .lead</p><p><strong>Rich Text has a separate set of styling rules.</strong> It can include <em>html markup</em>, <a href=\"#\">links</a>, etc., and can be styled by the author.</p>"
+    }
+}

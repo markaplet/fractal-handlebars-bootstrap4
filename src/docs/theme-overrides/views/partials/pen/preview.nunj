@@ -1,0 +1,23 @@
+{# Overriding preview.nunj, b/c need iframe to allow-top-navigation, so links within previews will cause fractal
+to load the page of the view that was linked to  #}
+
+<div class="Pen-panel Pen-preview Preview" data-behaviour="preview" id="preview-{{ entity.id }}">
+    <div class="Preview-wrapper" data-role="resizer">
+        <div class="Preview-resizer">
+            {% if renderError -%}
+                {{ renderError }}
+            {% else %}
+             <iframe
+                class="Preview-iframe"
+                data-role="window"
+                src="{{ previewUrl }}"
+                sandbox="allow-same-origin allow-scripts allow-forms allow-top-navigation"
+                {% if entity.display %} style="{% for property, value in entity.display %}{{ property }}: {{ value }} !important; {% endfor %}"{% endif %}
+                marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" scrolling="yes">
+            </iframe>
+            {%- endif %}
+        </div>
+        <div class="Preview-handle" data-role="resize-handle"></div>
+        <div class="Preview-overlay"></div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+{
+	"title": "Head CSS and JS",
+	"hidden": false,
+	"status": "wip",
+	"context": {
+		"modifier": "",
+		"decorator": "",
+		"metaCharset": "utf-8",
+		"metaTitle": "PROJECT NAME",
+		"metaAuthor": "",
+		"metaDescription": "",
+		"metaKeywords": "",
+		"favicon16": "/assets/img/fractal/favicon.png",
+		"favicon32": "",
+		"faviconTouch57": "",
+		"faviconTouch76": "",
+		"faviconTouch96": "",
+		"faviconTouch120": "",
+		"faviconTouch128": "",
+		"faviconTouch144": "",
+		"faviconTouch152": "",
+		"faviconTouch167": "",
+		"faviconTouch180": "",
+		"faviconTouch192": "",
+		"faviconTouch196": "",
+		"faviconTouch512": "",
+		"modernizrPath": "/assets/js/modernizr-custom.js",
+		"cssPath": "/assets/css/main",
+		"isMinified": false,
+		"customFonts": [
+			{
+				"URL": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+			},
+			{
+				"URL": "https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700,400i,600i,700i"
+			}
+		]
+	}
+}

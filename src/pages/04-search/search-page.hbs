@@ -1,0 +1,15 @@
+{{render '@global-header'}}
+{{render '@navigation'}}
+
+<div id="main-content" class="main-content" tabindex="-1">
+    {{render '@page-banner--landing-page' pageBanner}}
+    {{render '@search-bar' searchBar}}
+
+    <div class="main-secondary">
+        {{render '@facets' facets}}
+    </div>
+
+	<main class="main-primary">
+        {{render '@anything-grid' searchResults}}
+    </main>
+</div>

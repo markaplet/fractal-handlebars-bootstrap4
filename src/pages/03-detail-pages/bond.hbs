@@ -1,0 +1,18 @@
+{{render '@global-header'}}
+{{render '@navigation' global.navigation.bondsOversight merge=true}}
+
+<div id="main-content" class="main-content" tabindex="-1">
+    {{render '@breadcrumbs' breadcrumbs}}
+    {{render '@page-banner--detail-page' pageBanner}}
+
+    <main class="main-primary">
+        {{> @rich-text text=richText}}
+    </main>
+
+    <div class="main-secondary">
+        {{render '@local-nav-panel' localNavPanel merge=true}}
+        {{render '@panel--manual' panel1}}
+        {{render '@panel--manual' panel2}}
+        {{render '@panel--manual' panel3}}
+    </div>
+</div>

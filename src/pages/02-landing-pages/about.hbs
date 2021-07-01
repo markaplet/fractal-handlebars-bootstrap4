@@ -1,0 +1,14 @@
+{{render '@global-header'}}
+{{render '@navigation' global.navigation.about merge=true}}
+
+<div id="main-content" class="main-content landing-page" tabindex="-1">
+    {{render '@page-banner--landing-page' pageBanner}}
+
+	<main class="main-primary">
+        {{> @rich-text text=richText}}
+    </main>
+
+    <div class="main-secondary">
+        {{render '@local-nav-panel' localNavPanel merge=true}}
+    </div>
+</div>

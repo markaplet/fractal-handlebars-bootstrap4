@@ -1,0 +1,30 @@
+.design-tokens-colors {
+    > ul {
+        .clearfix();
+        padding: 0 !important;
+    }
+
+    &__color-sample {
+        float: left;
+        list-style: none !important;
+        margin-right: @padding-base / 2;
+        margin-bottom: @padding-base / 2 !important;
+        padding-top: 10%;
+        width: 200px;
+    }
+
+    &__color-varname,
+    &__color-hexcode {
+        background-color: #eee;
+        padding-left: @padding-base / 2;
+        padding-right: @padding-base / 2;
+    }
+    
+    &__color-varname {
+        padding-top: @padding-base / 2;
+    }
+
+    &__color-hexcode {
+        padding-bottom: @padding-base / 2;
+    }
+}

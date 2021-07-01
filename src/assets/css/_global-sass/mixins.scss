@@ -1,0 +1,69 @@
+// -----------------------------------------
+// Helper
+// -----------------------------------------
+
+@mixin font-size($fontsize) {
+	$pxSize: '#{$fontsize}px';
+	$remSize: '#{$fontsize / 16}rem';
+	font-size: #{$pxSize};
+	font-size: #{$remSize};
+}
+
+@mixin ellipsis() {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@mixin linear_gradient($value) {
+	background-image: linear-gradient(#{$value});
+}
+
+@mixin triangle() {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 99.999999%;
+	width: 5%;
+	@include linear_gradient("to top right, #fff 49.5%, transparent 50%");
+}
+
+@mixin triangle_image($color) {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	width: $padding-base * 2;
+	@include linear_gradient("to top right, #{$color} 49.5%, transparent 50%");
+}
+
+@mixin link-fade() {
+	transition: all 200ms ease;	// @mixin for making link fade times consistent.
+}
+
+@mixin header-dots($color, $background) {
+  position: relative;
+
+  &:before {
+    content: "";
+    border-bottom: 2px dashed $color;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 50%;
+  }
+
+  .panel-title {
+    background: $background !important;
+    position: relative;
+    display: inline-block;
+    padding-right: 6.75px;
+    margin-bottom: 0;
+  }
+}
