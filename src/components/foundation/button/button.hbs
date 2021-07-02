@@ -1,0 +1,27 @@
+<{{#if buttonIsLink}}a{{else}}button{{/if}}
+        class="button{{#if buttonModifier}} {{buttonModifier}}{{/if}}"
+        {{#if buttonIsLink}}href="{{buttonLinkURL}}"{{/if}}
+        {{#if buttonType}}type="{{buttonType}}"{{/if}}
+        {{#if buttonName}}name="{{buttonName}}"{{/if}}
+        {{#if buttonValue}}value="{{buttonValue}}"{{/if}}
+        {{#if buttonFormId}}form="{{buttonFormId}}"{{/if}}
+        {{#if buttonAriaLabel}}aria-label="{{buttonAriaLabel}}"{{/if}}
+        {{#if buttonIsDisabled}}disabled{{/if}}
+        {{#if buttonRole}}role="{{buttonRole}}"{{/if}}
+        {{#each buttonDataAttr}}
+            data-{{buttonDataName}}="{{buttonDataValue}}"
+        {{/each}}
+>
+    {{~#if buttonPreIcon}}<span class="pre-icon {{buttonPreIcon}}" aria-hidden="true"></span>{{/if}}
+
+    <span class="button__text{{#if buttonIsSrOnly}} sr-only{{/if}}">
+        {{#if buttonTextPre}}<span class="button__text-pre">{{buttonTextPre}}</span> {{/if}}
+        <span>{{buttonText}}</span>
+        {{#if buttonTextPost}} <span class="button__text-post">{{buttonTextPost}}</span>{{/if}}
+    </span>
+
+    {{~#if buttonPostIcon}}<span class="post-icon {{buttonPostIcon}}" aria-hidden="true"></span>{{/if}}
+    {{~#if buttonHasHamburger}}<span class="button__hamburger"><span class="button__hamburger-inner"></span></span>{{/if}}
+    {{~#if buttonHasIcon}}<span class="button__icon" aria-hidden="true"></span>{{/if}}
+    {{~#if buttonSvgIcon}}{{render '@icon' buttonSvgIcon}}{{/if}}
+</{{#if buttonIsLink}}a{{else}}button{{/if}}>

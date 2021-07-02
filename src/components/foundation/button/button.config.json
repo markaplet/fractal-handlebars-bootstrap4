@@ -1,0 +1,101 @@
+{
+    "title": "Button",
+    "hidden": false,
+    "status": "ready",
+    "context": {
+        "buttonModifier": "btn btn-primary text-uppercase",
+        "buttonIsLink": false,
+        "buttonType": "button",
+        "buttonName": "",
+        "buttonValue": "",
+        "buttonIsDisabled": false,
+        "buttonFormId": "",
+        "buttonAriaLabel": "",
+        "buttonRole": "",
+        "buttonText": "Button Primary"
+    },
+    "variants": [
+        {
+            "name": "button-primary",
+            "context": {
+                "buttonModifier": "btn btn-primary",
+                "buttonText": "Primary"
+            }
+        },
+        {
+            "name": "button-secondary",
+            "context": {
+                "buttonModifier": "btn btn-secondary",
+                "buttonText": "Secondary"
+            }
+        },
+        {
+            "name": "button-success",
+            "context": {
+                "buttonModifier": "btn btn-success",
+                "buttonText": "Success"
+            }
+        },
+        {
+            "name": "button-danger",
+            "context": {
+                "buttonModifier": "btn btn-danger",
+                "buttonText": "Danger"
+            }
+        },
+        {
+            "name": "button-warning",
+            "context": {
+                "buttonModifier": "btn btn-warning",
+                "buttonText": "Warning"
+            }
+        },
+        {
+            "name": "button-info",
+            "context": {
+                "buttonModifier": "btn btn-info",
+                "buttonText": "Info"
+            }
+        },
+        {
+            "name": "button-light",
+            "context": {
+                "buttonModifier": "btn btn-light",
+                "buttonText": "Light"
+            }
+        },
+        {
+            "name": "button-dark",
+            "context": {
+                "buttonModifier": "btn btn-dark",
+                "buttonText": "Dark"
+            }
+        },
+        {
+            "name": "button-disabled",
+            "context": {
+                "buttonModifier": "btn btn-primary disabled text-uppercase",
+                "buttonText": "Button Disabled",
+                "buttonIsDisabled": true
+            }
+        },
+        {
+            "name": "button-with-icon",
+            "context": {
+                "buttonModifier": "btn btn-primary text-uppercase",
+                "buttonText": "Button With Icon",
+                "buttonPostIcon": "icon-angle-right pl-2"
+            }
+        },
+        {
+            "name": "button-kitchen-sink",
+            "context": {
+                "buttonModifier": "btn btn-outline-primary btn-lg btn-block text-uppercase",
+                "buttonText": "Link + Outline + Block + Large + Icon",
+                "buttonPostIcon": "icon-angle-right pl-2",
+                "buttonAriaLabel": "Kitchen Sink Button",
+                "buttonIsLink": true
+            }
+        }
+    ]
+}
