@@ -1,0 +1,35 @@
+<div id="{{carouselUniqueID}}" class="carousel slide{{#if carouselModifier}} {{carouselModifier}}{{/if}}"
+    {{#if carouselAutoPlay}} data-ride="carousel"{{else}} data-interval="false"{{/if}}
+    {{#if carouselTouch}}{{else}}data-touch="false"{{/if}}>
+    {{#if carouselIndicators}}
+    <ol class="carousel-indicators">
+        {{#each carouselItems}}
+            <li data-target="#{{carouselUniqueID}}" data-slide-to="{{@index}}" class="{{#if carouselSlideIsActive}}active{{/if}}"></li>
+        {{/each}}
+    </ol>
+    {{/if}}
+    <div class="carousel-inner">
+    {{#each carouselItems}}
+        <div class="carousel-item{{#if carouselSlideIsActive}} active{{/if}}"{{#if this.carouselSlideInterval}} data-interval="{{this.carouselSlideInterval}}"{{/if}} >
+            <img src="{{this.carouselImageURL}}" class="d-block w-100" alt="{{this.carouselImageAlt}}">
+            {{#if this.carouselCaption}}
+            <div class="carousel-caption d-none d-md-block">
+                {{{this.carouselCaption}}}
+            </div>
+            {{/if}}
+        </div>
+    {{/each}}
+    </div>
+    {{#if carouselControls}}
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    {{/if}}
+</div>
+
+
