@@ -1,0 +1,22 @@
+{
+    "title": "Breadcrumbs",
+    "hidden": false,
+    "status": "ready",
+    "context": {
+        "breadcrumbsModifier": "breadcrumbs-responsive",
+        "breadcrumbAriaLabel": "You are here",
+        "breadcrumbsHomeLinkName": "Home",
+        "breadcrumbsHomeLinkURL": "./index.html",
+        "breadcrumbsParentLinks": [
+            {
+                "breadcrumbsParentLinkName": "Secondary",
+                "breadcrumbsParentLinkURL": "/secondary"
+            },
+            {
+                "breadcrumbsParentLinkName": "Tertiary",
+                "breadcrumbsParentLinkURL": "/tertiary"
+            }
+        ],
+        "breadcrumbsCurrentLinkName": "Quaternary"
+    }
+}

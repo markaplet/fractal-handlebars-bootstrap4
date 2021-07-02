@@ -1,0 +1,32 @@
+// Responsive breadcrumbs will collapse all items except the immediate parent.
+// ----------------------------------------------------------------------------
+
+$breadcrumbs-responsive-icon:           "‹";
+$breadcrumbs-responsive-icon-family:    'iconfont';
+$breadcrumbs-responsive-icon-color:     #000;
+
+.breadcrumbs-responsive {
+    li {
+        &:nth-last-of-type(2):before {
+            @include media-breakpoint-only(xs) {
+                content: $breadcrumbs-responsive-icon;
+                color: $breadcrumbs-responsive-icon-color;
+                vertical-align: bottom;
+                padding-right: .5rem;
+            }
+        }
+
+        // hide the parents
+        &:not(:nth-last-of-type(2)) {
+            @include media-breakpoint-only(xs) {
+                display: none;
+            }
+        }
+
+        &:after {
+            @include media-breakpoint-only(xs) {
+                display: none;
+            }
+        }
+    }
+}

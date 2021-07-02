@@ -1,0 +1,9 @@
+<nav class="breadcrumbs{{#if breadcrumbsModifier}} {{breadcrumbsModifier}}{{/if}}" aria-label="{{breadcrumbAriaLabel}}">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{breadcrumbsHomeLinkURL}}">{{breadcrumbsHomeLinkName}}</a></li>
+        {{#each breadcrumbsParentLinks}}
+            <li class="breadcrumb-item"><a href="{{this.breadcrumbsParentLinkURL}}">{{this.breadcrumbsParentLinkName}}</a></li>
+        {{/each}}
+        <li class="breadcrumb-item active" aria-current="page">{{breadcrumbsCurrentLinkName}}</li>
+    </ol>
+</nav>
