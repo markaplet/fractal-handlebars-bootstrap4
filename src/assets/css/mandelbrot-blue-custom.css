@@ -2380,3 +2380,8 @@ h2.Document-title {
   [dir="rtl"] .Tree-depth-8 .Tree-collectionLabel, [dir="rtl"]
   .Tree-depth-8 .Tree-entityLink {
     padding-right: 8rem; }
+
+    /* Use Bootstrap code color for easier reading */
+code {
+  color: #e83e8c;
+}
