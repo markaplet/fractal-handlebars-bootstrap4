@@ -1,0 +1,59 @@
+{
+    "title": "Badge",
+    "hidden": false,
+    "status": "wip",
+    "context": {
+        "modifier": "",
+        "badgeLabel": "Badge",
+        "badgeIsLink": false,
+        "badgeLinkURL": "",
+        "badgePreContent": "",
+        "badgePostContent": ""
+    },
+    "variants": [
+        {
+            "name": "badge-primary",
+            "context": {
+                "modifier": "badge-primary",
+                "badgeLabel": "NEW",
+                "badgeIsLink": false,
+                "badgeLinkURL": "",
+                "badgePreContent": "",
+                "badgePostContent": "<span class=\"sr-only\">unread messages</span>"
+            }
+        },
+        {
+            "name": "badge-pill",
+            "context": {
+                "modifier": "badge-primary badge-pill",
+                "badgeLabel": "PILL",
+                "badgeIsLink": false,
+                "badgeLinkURL": "",
+                "badgePreContent": "",
+                "badgePostContent": "<span class=\"sr-only\">unread messages</span>"
+            }
+        },
+        {
+            "name": "badge-link",
+            "context": {
+                "modifier": "badge-primary",
+                "badgeLabel": "Badge as link",
+                "badgeIsLink": true,
+                "badgeLinkURL": "#",
+                "badgePreContent": "",
+                "badgePostContent": ""
+            }
+        },
+        {
+            "name": "badge-pre-post",
+            "context": {
+                "modifier": "badge-danger",
+                "badgeLabel": "ICONS BEFORE AND AFTER",
+                "badgeIsLink": false,
+                "badgeLinkURL": "",
+                "badgePreContent": "<span class=\"icon-angle-double-left pr-1 small\"></span>",
+                "badgePostContent": "<span class=\"icon-angle-double-right pl-2 small\"></span>"
+            }
+        }
+    ]
+}

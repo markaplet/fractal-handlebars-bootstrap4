@@ -1,0 +1,7 @@
+<{{#if badgeIsLink}}a{{else}}span{{/if}}
+    class="badge{{#if modifier}} {{modifier}}{{/if}}"
+    {{#if badgeIsLink}}href="{{badgeLinkURL}}"{{/if}}>
+    {{~#if badgePreContent}}{{{badgePreContent}}}{{/if}}
+    {{badgeLabel}}
+    {{~#if badgePostContent}}{{{badgePostContent}}}{{/if}}
+</{{#if badgeIsLink}}a{{else}}span{{/if}}>

@@ -15,7 +15,7 @@ module.exports = [
     // Components
     //--------------------------------------------------
     'node_modules/bootstrap/scss/_alert.scss',
-    // 'node_modules/bootstrap/scss/_badge.scss',
+    'node_modules/bootstrap/scss/_badge.scss',
     'node_modules/bootstrap/scss/_breadcrumb.scss',
     'node_modules/bootstrap/scss/_button-group.scss',
     'node_modules/bootstrap/scss/_buttons.scss',
