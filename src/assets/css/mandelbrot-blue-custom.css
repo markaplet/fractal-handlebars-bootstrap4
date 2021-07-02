@@ -2001,7 +2001,7 @@ h2.Document-title {
 
 .Prose {
   /* font: normal 1rem/1.5 "Open Sans", Helvetica, Arial, sans-serif; */
-  max-width: 44em;
+  /*max-width: 44em;*/
   /* font-feature-settings: "liga", "dlig", "kern", "onum"; */
   /* hanging-punctuation: first;  */
 }
