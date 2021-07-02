@@ -1,11 +1,12 @@
 module.exports = [
     // Uncomment the components that will be included in this project.
 
+    'src/components/**/**/css/**/*.scss' // Simplify import process and import all component css.
     // 'src/components/**/abstract/css/**/*.scss',
     // 'src/components/**/abstract-event/css/**/*.scss',
     // 'src/components/**/accordion-item/css/**/*.scss',
     // 'src/components/**/accordion/css/**/*.scss',
-    'src/components/**/alert/css/**/*.scss',
+    // 'src/components/**/alert/css/**/*.scss',
     // 'src/components/**/anything-grid/css/**/*.scss',
     // 'src/components/**/branding/css/**/*.scss',
     // 'src/components/**/breadcrumbs/css/**/*.scss',
@@ -27,7 +28,7 @@ module.exports = [
     // 'src/components/**/featured-footer/css/**/*.scss',
     // 'src/components/**/featured-links/css/**/*.scss',
     // 'src/components/**/figure-caption/css/**/*.scss',
-	'src/components/**/flexbox-cssgrid-test/css/**/*.scss',
+	// 'src/components/**/flexbox-cssgrid-test/css/**/*.scss',
     // 'src/components/**/footer/css/**/*.scss',
     // 'src/components/**/forms/css/**/*.scss',
     // 'src/components/**/gallery/css/**/*.scss',
@@ -50,7 +51,7 @@ module.exports = [
     // 'src/components/**/profile-executive/css/**/*.scss',
     // 'src/components/**/quick-links/css/**/*.scss',
     // 'src/components/**/quick-links-section/css/**/*.scss',
-    'src/components/**/rich-text/css/**/*.scss',
+    // 'src/components/**/rich-text/css/**/*.scss',
     // 'src/components/**/section/css/**/*.scss',
     // 'src/components/**/site-search/css/**/*.scss',
     // 'src/components/**/site-settings/css/**/*.scss',
