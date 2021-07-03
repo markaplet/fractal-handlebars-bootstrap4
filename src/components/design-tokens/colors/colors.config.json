@@ -4,36 +4,116 @@
 	"context": {
         "colors": [
             {
+                "varName": "primary",
+                "hexCode": "#007bff"
+            },
+            {
+                "varName": "secondary",
+                "hexCode": "#6c757d"
+            },
+            {
+                "varName": "success",
+                "hexCode": "#28a745"
+            },
+            {
+                "varName": "info",
+                "hexCode": "#17a2b8"
+            },
+            {
+                "varName": "warning",
+                "hexCode": "#ffc107"
+            },
+            {
+                "varName": "danger",
+                "hexCode": "#dc3545"
+            },
+            {
+                "varName": "light",
+                "hexCode": "#f8f9fa"
+            },
+            {
+                "varName": "dark",
+                "hexCode": "#343a40"
+            },
+            {
                 "varName": "blue",
-                "hexCode": "#0066BA"
+                "hexCode": "#007bff"
             },
             {
-                "varName": "blue-dark",
-                "hexCode": "#002F6D"
+                "varName": "indigo",
+                "hexCode": "#6610f2"
             },
             {
-                "varName": "blue-bright",
-                "hexCode": "#40B4E5"
+                "varName": "purple",
+                "hexCode": "#6f42c1"
             },
             {
-                "varName": "blue-light",
-                "hexCode": "#D9F0FA"
+                "varName": "pink",
+                "hexCode": "#e83e8c"
             },
             {
-                "varName": "gold",
-                "hexCode": "#FFB600"
+                "varName": "red",
+                "hexCode": "#dc3545"
             },
             {
-                "varName": "gold-light",
-                "hexCode": "#FFE299"
+                "varName": "orange",
+                "hexCode": "#fd7e14"
             },
             {
-                "varName": "gray",
-                "hexCode": "#555555"
+                "varName": "yelloy",
+                "hexCode": "#ffc107"
             },
             {
-                "varName": "gray-light",
+                "varName": "green",
+                "hexCode": "#28a745"
+            },
+            {
+                "varName": "teal",
+                "hexCode": "#20c997"
+            },
+            {
+                "varName": "cyan",
+                "hexCode": "#17a2b8"
+            },
+            {
+                "varName": "gray-100",
+                "hexCode": "#f8f9fa"
+            },
+            {
+                "varName": "gray-200",
+                "hexCode": "#eeeeee"
+            },
+            {
+                "varName": "gray-300",
+                "hexCode": "#dee2e6"
+            },
+            {
+                "varName": "gray-400",
                 "hexCode": "#B2B2B2"
+            },
+            {
+                "varName": "gray-500",
+                "hexCode": "#adb5bd"
+            },
+            {
+                "varName": "gray-600",
+                "hexCode": "#6c757d"
+            },
+            {
+                "varName": "gray-700",
+                "hexCode": "#495057"
+            },
+            {
+                "varName": "gray-800",
+                "hexCode": "#343a40"
+            },
+            {
+                "varName": "gray-900",
+                "hexCode": "#212529"
+            },
+            {
+                "varName": "black",
+                "hexCode": "#000000"
             }
         ]
     }
