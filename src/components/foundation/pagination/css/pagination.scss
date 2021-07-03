@@ -1,0 +1,15 @@
+.pagination {
+	.page-link {
+		text-decoration: none;
+
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+
+		&:focus {
+			box-shadow: none;
+			outline: 2px solid black;
+			outline-offset: -3px;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+<nav aria-label="{{paginationAriaLabel}}">
+    <ul class="pagination{{#if paginationModifier}} {{paginationModifier}}{{/if}}">
+        <li class="page-item{{#if paginationPrevDisabled}} disabled{{/if}}"><a href="{{paginationPrevURL}}" class="page-link pagination-prev" aria-label="Previous Page"{{#if paginationPrevDisabled}} tabindex="-1" aria-disabled="true"{{/if}}>{{#if paginationPrev}}<span class="pagination-label-custom" aria-hidden="true">{{{paginationPrev}}}</span>{{/if}}<span class="pagination-label">Previous</span></a></li>
+        <li class="page-item pagination-pages d-block d-sm-none disabled"><a class="page-link text-primary text-uppercase" href="#" tabindex="-1" aria-disabled="true">{{paginationPages}}</a></li>
+        {{#each paginationLinks}}
+            <li class="page-item d-none d-sm-block{{#if paginationLinkActive}} active{{/if}}{{#if paginationLinkDisabled}} disabled{{/if}}"><a href="{{this.paginationLinkURL}}" class="page-link" {{#if paginationLinkActive}}aria-label="Current Page, Page {{this.paginationLinkName}}" aria-current="true"{{else}}aria-label="Go to page {{this.paginationLinkName}}"{{/if}}{{#if paginationLinkDisabled}} tabindex="-1" aria-disabled="true"{{/if}}>{{this.paginationLinkName}}</a></li>
+        {{/each}}
+        <li{{#if paginationNexDisabled}} disabled{{/if}}><a href="{{paginationNextURL}}" class="page-link pagination-next" aria-label="Next Page"{{#if paginationNexDisabled}} tabindex="-1" aria-disabled="true"{{/if}}><span class="pagination-label">Next</span>{{#if paginationNext}}<span class="pagination-label-custom"  aria-hidden="true">{{{paginationNext}}}</span>{{/if}}</a></li>
+    </ul>
+</nav>

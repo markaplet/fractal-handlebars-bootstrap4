@@ -1,0 +1,57 @@
+{
+	"title": "",
+	"hidden": false,
+	"status": "ready",
+	"context": {
+		"paginationModifier": "",
+		"paginationAriaLabel": "Search Results Pagination",
+		"paginationPrev": "",
+		"paginationPrevURL": "#",
+		"paginationNext": "",
+		"paginationNextURL": "#",
+		"paginationResponsive": true,
+		"paginationPages": "22 of 30",
+		"paginationLinks": [
+			{
+				"paginationLinkName": "1",
+				"paginationLinkURL": "#"
+			},
+			{
+				"paginationLinkName": "...",
+				"paginationLinkURL": "#",
+				"paginationLinkDisabled": true
+
+			},
+			{
+				"paginationLinkName": "20",
+				"paginationLinkURL": "#"
+			},
+			{
+				"paginationLinkName": "21",
+				"paginationLinkURL": "#"
+			},
+			{
+				"paginationLinkName": "22",
+				"paginationLinkURL": "#",
+				"paginationLinkActive": true
+			},
+			{
+				"paginationLinkName": "23",
+				"paginationLinkURL": "#"
+			},
+			{
+				"paginationLinkName": "24",
+				"paginationLinkURL": "#"
+			},
+			{
+				"paginationLinkName": "...",
+				"paginationLinkURL": "#",
+				"paginationLinkDisabled": true
+			},
+			{
+				"paginationLinkName": "30",
+				"paginationLinkURL": "#"
+			}
+		]
+	}
+}
