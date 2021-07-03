@@ -19,7 +19,7 @@ module.exports = [
     'node_modules/bootstrap/scss/_breadcrumb.scss',
     'node_modules/bootstrap/scss/_button-group.scss',
     'node_modules/bootstrap/scss/_buttons.scss',
-    // 'node_modules/bootstrap/scss/_card.scss',
+    'node_modules/bootstrap/scss/_card.scss',
     // 'node_modules/bootstrap/scss/_code.scss',
     'node_modules/bootstrap/scss/_close.scss',
     // 'node_modules/bootstrap/scss/_custom-forms.scss',

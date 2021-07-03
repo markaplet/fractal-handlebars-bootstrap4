@@ -1,0 +1,20 @@
+<div class="card{{#if cardModifier}} {{cardModifier}}{{/if}}">
+    {{#if cardImageURL}}
+    <img src="{{{cardImageURL}}}" 
+    class="card-img-top{{#if cardImageModifier}} {{cardImageModifier}}{{/if}}" 
+    alt="{{cardImageAlt}}">
+    {{/if}}
+
+    <div class="card-body">
+        <{{cardHeaderLevel}} class="card-title">{{cardHeaderLabel}}</{{cardHeaderLevel}}>
+        <p class="card-text">{{{cardHeaderText}}}</p>
+    </div>
+
+    {{#if cardFootLinks}}
+    <div class="card-body">
+        {{#each cardFootLinks}}
+        <a href="{{cardFootLinkURL}}" class="card-link{{#if cardFootLinkModifier}} {{cardFootLinkModifier}}{{/if}}">{{cardFootLinkLabel}}</a>
+        {{/each}}
+    </div>
+    {{/if}}
+</div>

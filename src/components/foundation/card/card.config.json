@@ -1,0 +1,26 @@
+{
+    "title": "Card",
+    "hidden": false,
+    "status": "prototype",
+    "context": {
+        "cardModifier": "col-sm-4 p-0",
+        "cardImageURL": "/assets/img/demo/placeholder.gif",
+        "cardImageAlt": "Demo image alt text",
+        "cardImageModifier": "",
+        "cardHeaderLevel": "h3",
+        "cardHeaderLabel": "Card Title",
+        "cardHeaderText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "cardFootLinks": [
+            {
+                "cardFootLinkModifier": "btn btn-primary",
+                "cardFootLinkURL": "#",
+                "cardFootLinkLabel": "Card Link"
+            },
+            {
+                "cardFootLinkModifier": "",
+                "cardFootLinkURL": "#",
+                "cardFootLinkLabel": "Another Link"
+            }
+        ]
+    }
+}
