@@ -1,0 +1,12 @@
+{
+    "title": "Collapse",
+    "hidden": false,
+    "status": "wip",
+    "context": {
+        "collapseModifier": "mt-3",
+        "collapseToggleModifier": "btn btn-primary",
+        "collapseUniqueID": "collapseExample",
+        "collapseButtonLabel": "Toggle Content",
+        "collapseBody": "<div class=\"card card-body\">Some placeholder content for the collapse component example. This panel is hidden by default but revealed when the user activates the relevant trigger.</div>"
+    }
+}

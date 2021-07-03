@@ -1,0 +1,12 @@
+<button {{#if collapseToggleModifier}}class="{{collapseToggleModifier}}"{{/if}}
+    type="button"
+    data-toggle="collapse"
+    data-target="#{{collapseUniqueID}}"
+    aria-expanded="false"
+    aria-controls="{{collapseUniqueID}}">
+    {{collapseButtonLabel}}
+</button>
+
+<div class="collapse{{#if collapseModifier}} {{collapseModifier}}{{/if}}" id="{{collapseUniqueID}}">
+    {{{collapseBody}}}
+</div>
