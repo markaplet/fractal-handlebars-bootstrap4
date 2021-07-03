@@ -1,0 +1,5 @@
+<div class="progress{{#if progressModifier}} {{progressModifier}}{{/if}}">
+    <div class="progress-bar{{#if progressBarModifier}} {{progressBarModifier}}{{/if}}" role="progressbar" style="width: {{progressPercent}}%;" aria-valuenow="{{progressPercent}}" aria-valuemin="0" aria-valuemax="100">
+        {{#if progressPercentShow}}{{progressPercent}}%{{/if}}
+    </div>
+</div>

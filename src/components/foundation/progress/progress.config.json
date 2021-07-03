@@ -1,0 +1,31 @@
+{
+    "title": "Progress",
+    "hidden": false,
+    "status": "prototype",
+    "context": {
+        "progressModifier": "",
+        "progressBarModifier": "",
+        "progressPercent": "25",
+        "progressPercentShow": true
+    },
+    "variants": [
+        {
+            "name": "striped",
+            "context": {
+                "progressModifier": "",
+                "progressBarModifier": "progress-bar-striped bg-warning",
+                "progressPercent": "50",
+                "progressPercentShow": false
+            }
+        },
+        {
+            "name": "animated",
+            "context": {
+                "progressModifier": "",
+                "progressBarModifier": "progress-bar-animated progress-bar-striped bg-info",
+                "progressPercent": "75",
+                "progressPercentShow": true
+            }
+        }
+    ]
+}
