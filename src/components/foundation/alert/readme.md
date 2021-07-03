@@ -2,8 +2,7 @@
 
 Alerts keep users informed of important and sometimes time-sensitive changes.
 
-* [Bootstrap 3](http://bootstrapdocs.com/v3.0.3/docs/components/#alerts)
-* [Bootstrap 4](http://getbootstrap.com/docs/4.0/components/alerts/)
+* [Bootstrap 4 Alerts Wiki](http://getbootstrap.com/docs/4.0/components/alerts/)
 
 ## API
 
