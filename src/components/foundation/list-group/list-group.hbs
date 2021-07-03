@@ -1,0 +1,24 @@
+<{{listGroupType}} class="list-group{{#if listGroupModifier}} {{listGroupModifier}}{{/if}}">
+    {{#each listItems}}
+        {{#if this.listItemIsLink}}
+            <a href="{{this.listItemURL}}" class="list-group-item{{#if listItemModifier}} {{listItemModifier}}{{/if}}
+                {{~#if listItemIsActive}} active{{/if}}"
+                {{~#if listItemIsDisabled}} aria-disabled="true"{{/if}}
+                {{~#if listItemIsActive}} aria-current="true"{{/if}}>{{{this.listItemLabel}}}</a>
+        {{/if}}
+        {{#if this.listItemIsButton}}
+            <button type="button" class="list-group-item list-group-item-action{{#if listItemModifier}} {{listItemModifier}}{{/if}}
+                {{~#if listItemIsActive}} active{{/if}}"
+                {{~#if listItemIsActive}} aria-current="true"{{/if}}
+                {{~#if listItemIsDisabled}} disabled{{/if}}>{{{this.listItemLabel}}}</button>
+        {{/if}}
+        {{#if this.listItemIsListItem}}
+            <li class="list-group-item{{#if listItemModifier}} {{listItemModifier}}{{/if}}
+                {{~#if listItemIsActive}} active{{/if}}"
+                {{~#if listItemIsActive}} aria-current="true"{{/if}}
+                {{~#if listItemIsDisabled}} aria-disabled="true"{{/if}}>
+                {{{listItemLabel}}}
+            </li>
+        {{/if}}
+    {{/each}}
+</{{listGroupType}}>

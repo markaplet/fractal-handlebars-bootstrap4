@@ -1,0 +1,82 @@
+{
+    "title": "List Group",
+    "hidden": false,
+    "status": "ready",
+    "context": {
+        "listGroupModifier": "",
+        "listGroupType": "ul",
+        "listItems": [
+            {
+                "listItemModifier": "",
+                "listItemIsButton": false,
+                "listItemIsLink": false,
+                "listItemIsListItem": true,
+                "listItemIsDisabled": false,
+                "listItemIsActive": false,
+                "listItemURL": "#",
+                "listItemLabel": "The first item"
+            },
+            {
+                "listItemModifier": "",
+                "listItemIsButton": false,
+                "listItemIsLink": false,
+                "listItemIsListItem": true,
+                "listItemIsDisabled": false,
+                "listItemIsActive": false,
+                "listItemURL": "#",
+                "listItemLabel": "The second item"
+            },
+            {
+                "listItemModifier": "",
+                "listItemIsButton": false,
+                "listItemIsLink": false,
+                "listItemIsListItem": true,
+                "listItemIsDisabled": false,
+                "listItemIsActive": false,
+                "listItemURL": "#",
+                "listItemLabel": "The third item"
+            }
+        ]
+    },
+    "variants": [
+        {
+            "name": "custom-content",
+            "context": {
+                "listGroupModifier": "",
+                "listGroupType": "div",
+                "listItems": [
+                    {
+                        "listItemModifier": "list-group-item-action",
+                        "listItemIsButton": false,
+                        "listItemIsLink": true,
+                        "listItemIsListItem": false,
+                        "listItemIsDisabled": false,
+                        "listItemIsActive": true,
+                        "listItemURL": "#",
+                        "listItemLabel": "<div class=\"d-flex justify-content-between w-100\"><h5 class=\"mb-1\">List group item heading<\/h5><small>3 days ago<\/small><\/div><p class=\"mb-1\">Some placeholder content in a paragraph.<\/p><small>And some small print.<\/small>"
+                    },
+                    {
+                        "listItemModifier": "list-group-item-action",
+                        "listItemIsButton": false,
+                        "listItemIsLink": true,
+                        "listItemIsListItem": false,
+                        "listItemIsDisabled": false,
+                        "listItemIsActive": false,
+                        "listItemURL": "#",
+                        "listItemLabel": "<div class=\"d-flex justify-content-between w-100\"><h5 class=\"mb-1\">List group item heading<\/h5><small>3 days ago<\/small><\/div><p class=\"mb-1\">Some placeholder content in a paragraph.<\/p><small>And some small print.<\/small>"
+                    },
+                    {
+                        "listItemModifier": "list-group-item-action",
+                        "listItemIsButton": false,
+                        "listItemIsLink": true,
+                        "listItemIsListItem": false,
+                        "listItemIsDisabled": false,
+                        "listItemIsActive": false,
+                        "listItemURL": "#",
+                        "listItemLabel": "<div class=\"d-flex justify-content-between w-100\"><h5 class=\"mb-1\">List group item heading<\/h5><small>3 days ago<\/small><\/div><p class=\"mb-1\">Some placeholder content in a paragraph.<\/p><small>And some small print.<\/small>"
+                    }
+                ]
+            }
+        }
+    ]
+}

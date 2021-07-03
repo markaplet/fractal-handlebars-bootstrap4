@@ -29,7 +29,7 @@ module.exports = [
     'node_modules/bootstrap/scss/_images.scss',
     'node_modules/bootstrap/scss/_input-group.scss',
     'node_modules/bootstrap/scss/_jumbotron.scss',
-    // 'node_modules/bootstrap/scss/_list-group.scss',
+    'node_modules/bootstrap/scss/_list-group.scss',
     // 'node_modules/bootstrap/scss/_media.scss',
     // 'node_modules/bootstrap/scss/_nav.scss',
     // 'node_modules/bootstrap/scss/_navbar.scss',
