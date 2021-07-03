@@ -1,0 +1,30 @@
+{
+    "title": "Media Object",
+    "hidden": false,
+    "status": "ready",
+    "context": {
+        "mediaObjectModifier": "",
+        "mediaObjectImageURL": "/assets/img/demo/placeholder-64x64.png",
+        "mediaObjectImageAlt": "Media Object placeholder image",
+        "mediaObjectImageModifier": "mr-3",
+        "mediaObjectHeadingLevel": "h3",
+        "mediaObjectHeadingModifier": "mt-0",
+        "mediaObjectHeadingLabel": "Media Heading",
+        "mediaObjectRichText": "<p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>"
+    },
+    "variants": [
+        {
+            "name": "media-alignment",
+            "context": {
+                "mediaObjectModifier": "",
+                "mediaObjectImageURL": "/assets/img/demo/placeholder-64x64.png",
+                "mediaObjectImageAlt": "Media Object placeholder image",
+                "mediaObjectImageModifier": "align-self-end mr-3",
+                "mediaObjectHeadingLevel": "h3",
+                "mediaObjectHeadingModifier": "mt-0",
+                "mediaObjectHeadingLabel": "Media Heading",
+                "mediaObjectRichText": "<p class=\"mb-0\">Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>"
+            }
+        }
+    ]
+}

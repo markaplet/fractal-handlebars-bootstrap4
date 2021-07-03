@@ -1,0 +1,7 @@
+<div class="media{{#if mediaObjectModifier}} {{mediaObjectModifier}}{{/if}}">
+    <img src="{{mediaObjectImageURL}}" class="{{#if mediaObjectImageModifier}}{{mediaObjectImageModifier}}{{/if}}" alt="{{mediaObjectImageAlt}}">
+    <div class="media-body">
+        <{{mediaObjectHeadingLevel}} {{#if mediaObjectHeadingModifier}}class="{{mediaObjectHeadingModifier}}"{{/if}}>{{mediaObjectHeadingLabel}}</{{mediaObjectHeadingLevel}}>
+        {{{mediaObjectRichText}}}
+    </div>
+</div>
