@@ -1,4 +1,6 @@
 module.exports = [
+    'src/components/**/**/js/**/*.js' // Load component js automatically.
+
     // 'src/assets/js/accordion-toggle.js', // Utility for toggeling all accordions at once
     // 'src/components/**/alert/js/**/*.js',
     // 'src/components/**/calendar/js/**/*.js',

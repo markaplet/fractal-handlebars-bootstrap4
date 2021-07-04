@@ -1,0 +1,12 @@
+{
+    "title": "Tooltips",
+    "hidden": false,
+    "status": "ready",
+    "context": {
+        "tooltipModifier": "btn btn-primary",
+        "tooltipIsDisabled": false,
+        "tooltipPlacement": "right",
+        "tooltipLabel": "Tooltip is on right",
+        "buttonLabel": "Tooltip Button"
+    }
+}

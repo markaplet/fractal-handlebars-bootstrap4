@@ -43,7 +43,7 @@ module.exports = [
     // Components w/ JavaScript
     //--------------------------------------------------
     // 'node_modules/bootstrap/scss/_modal.scss',
-    // 'node_modules/bootstrap/scss/_tooltip.scss',
+    'node_modules/bootstrap/scss/_tooltip.scss',
     // 'node_modules/bootstrap/scss/_popover.scss',
     'node_modules/bootstrap/scss/_carousel.scss',
     // 'node_modules/bootstrap/scss/_spinners.scss',
