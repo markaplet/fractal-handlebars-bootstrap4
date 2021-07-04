@@ -1,0 +1,30 @@
+<ul class="nav{{#if navModifier}} {{navModifier}}{{/if}}"
+    {{~#if navUniqueID}} id="{{navUniqueID}}"{{/if}}
+    {{~#if navIsTablist}} role="tablist"{{/if}}>
+    {{#each navItems}}
+    <li class="nav-item{{#if navItemModifier}} {{navItemModifier}}{{/if}}"
+        {{~#if ../navIsTablist}} role="presentation"{{/if}}>
+        <a class="nav-link{{#if navLinkModifier}} {{navLinkModifier}}{{/if}}
+            {{~#if navLinkIsActive}} active{{/if}}
+            {{~#if navLinkIsDisabled}} disabled{{/if}}"
+            {{~#if ../navIsTablist}}
+                id="{{navLinkUniqueID}}-tab"
+                role="tab"
+                data-toggle="tab"
+                aria-controls="{{navLinkUniqueID}}"
+                {{~#if navLinkIsActive}} aria-selected="true"{{/if}}
+            {{/if}}
+           href="{{navLinkURL}}">{{navLinkLabel}}</a>
+    </li>
+    {{/each}}
+</ul>
+
+{{~#if navIsTablist}}
+<div class="tab-content{{#if navContentModifier}} {{navContentModifier}}{{/if}}" id="{{navContentUniqueID}}">
+    {{#each navItems}}
+    <div class="tab-pane fade{{#if navLinkIsActive}} show active{{/if}}" id="{{navLinkUniqueID}}" role="tabpanel" aria-labelledby="{{navLinkUniqueID}}-tab">
+        {{{tabContent}}}
+    </div>
+    {{/each}}
+</div>
+{{/if}}

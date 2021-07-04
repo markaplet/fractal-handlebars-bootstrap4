@@ -1,0 +1,87 @@
+{
+    "title": "Navs",
+    "hidden": false,
+    "status": "wip",
+    "context": {
+        "navModifier": "",
+        "navUniqueID": "",
+        "navIsTablist": false,
+        "navContentModifier": "",
+        "navContentUniqueID": "",
+
+        "navItems": [
+            {
+                "navItemModifier": "",
+                "navLinkModifier": "",
+                "navLinkUniqueID": "",
+                "navLinkIsActive": false,
+                "navLinkIsDisabled": false,
+                "navLinkURL": "#",
+                "navLinkLabel": "Home"
+            },
+            {
+                "navItemModifier": "",
+                "navLinkModifier": "",
+                "navLinkUniqueID": "",
+                "navLinkIsActive": false,
+                "navLinkIsDisabled": false,
+                "navLinkURL": "#",
+                "navLinkLabel": "Profile"
+            },
+            {
+                "navItemModifier": "",
+                "navLinkModifier": "",
+                "navLinkUniqueID": "",
+                "navLinkIsActive": false,
+                "navLinkIsDisabled": false,
+                "navLinkURL": "#",
+                "navLinkLabel": "Contact"
+            }
+        ]
+    },
+    "variants": [
+        {
+            "name": "nav-tabs",
+            "context": {
+                "navModifier": "nav-tabs mb-2",
+                "navUniqueID": "exampleTabs",
+                "navIsTablist": true,
+                "navContentModifier": "",
+                "navContentUniqueID": "myTabContent",
+
+                "navItems": [
+                    {
+                        "navItemModifier": "",
+                        "navLinkModifier": "",
+                        "navLinkUniqueID": "home",
+                        "navLinkIsActive": true,
+                        "navLinkIsDisabled": false,
+                        "navLinkURL": "#home",
+                        "navLinkLabel": "Home",
+                        "tabContent": "Home Content Here"
+                    },
+                    {
+                        "navItemModifier": "",
+                        "navLinkModifier": "",
+                        "navLinkUniqueID": "profile",
+                        "navLinkIsActive": false,
+                        "navLinkIsDisabled": false,
+                        "navLinkURL": "#profile",
+                        "navLinkLabel": "Profile",
+                        "tabContent": "Profile Content Here"
+                    },
+                    {
+                        "navItemModifier": "",
+                        "navLinkModifier": "",
+                        "navLinkUniqueID": "contact",
+                        "navLinkIsActive": false,
+                        "navLinkIsDisabled": false,
+                        "navLinkURL": "#contact",
+                        "navLinkLabel": "Contact",
+                        "tabContent": "Contact Info Here"
+                    }
+                ]
+            }
+        }
+    ]
+}
