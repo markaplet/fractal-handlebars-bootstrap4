@@ -4,7 +4,7 @@
     "status": "ready",
     "context": {
         "mediaObjectModifier": "",
-        "mediaObjectImageURL": "/assets/img/demo/placeholder-64x64.png",
+        "mediaObjectImageURL": "holder.js/64x64",
         "mediaObjectImageAlt": "Media Object placeholder image",
         "mediaObjectImageModifier": "mr-3",
         "mediaObjectHeadingLevel": "h3",
@@ -17,7 +17,7 @@
             "name": "media-alignment",
             "context": {
                 "mediaObjectModifier": "",
-                "mediaObjectImageURL": "/assets/img/demo/placeholder-64x64.png",
+                "mediaObjectImageURL": "holder.js/64x64",
                 "mediaObjectImageAlt": "Media Object placeholder image",
                 "mediaObjectImageModifier": "align-self-end mr-3",
                 "mediaObjectHeadingLevel": "h3",

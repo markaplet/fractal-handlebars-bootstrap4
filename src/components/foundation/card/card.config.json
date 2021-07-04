@@ -4,7 +4,7 @@
     "status": "prototype",
     "context": {
         "cardModifier": "col-sm-4 p-0",
-        "cardImageURL": "/assets/img/demo/placeholder.gif",
+        "cardImageURL": "holder.js/800x400",
         "cardImageAlt": "Demo image alt text",
         "cardImageModifier": "",
         "cardHeaderLevel": "h3",
