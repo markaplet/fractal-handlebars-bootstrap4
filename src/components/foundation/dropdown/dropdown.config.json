@@ -1,0 +1,32 @@
+{
+    "title": "Dropdown",
+    "hidden": false,
+    "status": "wip",
+    "context": {
+        "dropdownGroupModifier": "",
+        "dropdownMenuModifier": "",
+        "dropdownButtonModifier": "btn-secondary",
+        "dropdownButtonLabel": "Dropdown",
+
+        "dropdownItems": [
+            {
+                "dropdownIncludeDivider": false,
+                "dropdownItemModifier": "",
+                "dropdownItemURL": "#",
+                "dropdownItemLabel": "First Link"
+            },
+            {
+                "dropdownIncludeDivider": false,
+                "dropdownItemModifier": "active",
+                "dropdownItemURL": "#",
+                "dropdownItemLabel": "Second Link"
+            },
+            {
+                "dropdownIncludeDivider": true,
+                "dropdownItemModifier": "",
+                "dropdownItemURL": "#",
+                "dropdownItemLabel": "After Divider Link"
+            }
+        ]
+    }
+}

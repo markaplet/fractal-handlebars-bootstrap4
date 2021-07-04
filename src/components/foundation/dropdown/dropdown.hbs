@@ -1,0 +1,15 @@
+<div class="btn-group{{#if dropdownGroupModifier}} {{dropdownGroupModifier}}{{/if}}">
+    <button type="button"
+            class="btn dropdown-toggle{{#if dropdownButtonModifier}} {{dropdownButtonModifier}}{{/if}}"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+        {{dropdownButtonLabel}}
+    </button>
+    <div class="dropdown-menu{{#if dropdownMenuModifier}} {{dropdownMenuModifier}}{{/if}}">
+        {{#each dropdownItems}}
+            {{#if dropdownIncludeDivider}}<div class="dropdown-divider"></div>{{/if}}
+            <a class="dropdown-item{{#if dropdownItemModifier}} {{dropdownItemModifier}}{{/if}}" href="{{dropdownItemURL}}">{{dropdownItemLabel}}</a>
+        {{/each}}
+    </div>
+</div>
