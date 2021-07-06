@@ -1,0 +1,17 @@
+{
+    "title": "iFrame Embed",
+    "hidden": false,
+    "status": "wip",
+    "default": "Video",
+    "context": {
+        "iframeEmbedModifier": "",
+        "iframeEmbedDecorator": "",
+        "iframeEmbedAspectRatio": "16by9",
+        "iframeEmbedHeight": "",
+        "iframeEmbedTitle": "REO Speedwagon - Can't Fight This Feeling (Official HD Video)",
+		"iframeEmbedURL": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+		"iframeEmbedAllowFullScreen": "true",
+		"iframeEmbedID": "MyVideoID",
+		"iframeEmbedCaption": ""
+    }
+}

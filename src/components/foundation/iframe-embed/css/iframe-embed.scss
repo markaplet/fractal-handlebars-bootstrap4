@@ -1,0 +1,46 @@
+.iframe-embed {
+	&__caption {
+        color: $gray-600;
+		@include font-size(16);
+        line-height: $padding-base;
+        padding-top: $padding-base / 2;
+    }
+
+    main > & {
+        margin-bottom: $padding-base * 2;
+
+        @include media-breakpoint-down(sm) {
+			margin-bottom: $padding-base;
+		}
+    }
+
+    iframe {
+        z-index: 1;
+    }
+
+	// Override the 16by9 aspect ratio (commented out elsewhere for some reason)
+
+	.embed-responsive-16by9 {
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding-top: 56.25%;
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+
+
+    // Adjusts the positioning and size of the container for JWPlayer videos, b/c the player is a set dimension with too much top and left padding.
+    .embed-responsive-jwplayer {
+        padding-top: 40px;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+}

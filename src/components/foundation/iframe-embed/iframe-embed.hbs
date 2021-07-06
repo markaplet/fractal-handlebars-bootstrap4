@@ -1,0 +1,8 @@
+<div class="iframe-embed{{#if iframeEmbedModifier}} {{iframeEmbedModifier}}{{/if}}">
+	<div class="embed-responsive{{#if iframeEmbedAspectRatio}} embed-responsive-{{iframeEmbedAspectRatio}}"{{else}}" style="padding-bottom:{{iframeEmbedHeight}};"{{/if}}>
+		<iframe class="embed-responsive-item" src="{{iframeEmbedURL}}" title="{{iframeEmbedTitle}}"{{#if iframeEmbedID}} id="{{iframeEmbedID}}"{{/if}}{{#if iframeEmbedAllowFullScreen}} allowfullscreen{{/if}}></iframe>
+	</div>
+	{{#if iframeEmbedCaption}}
+	<div class="iframe-embed__caption">{{iframeEmbedCaption}}</div>
+	{{/if}}
+</div>
