@@ -1,0 +1,13 @@
+{
+    "title": "Figure",
+    "hidden": false,
+    "status": "wip",
+    "context": {
+        "figureModifier": "",
+        "figureURL": "holder.js/400x300",
+        "figureImgModifier": "img-fluid rounded",
+        "figureImgAlt": "Example figure alt text",
+        "figureCaption": "A caption for the above image.",
+        "figureCaptionModifier": ""
+    }
+}
