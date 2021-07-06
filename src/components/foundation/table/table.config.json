@@ -1,0 +1,81 @@
+{
+    "title": "Table",
+    "hidden": false,
+    "status": "wip",
+    "context": {
+        "tableWrapperModifier": "table-responsive",
+        "tableModifier": "table-hover",
+        "uniqueID": "exampleTable",
+        "caption": "Example bootstrap table",
+        "columnHeaders": [
+            {
+                "header": "#"
+            },
+            {
+                "header": "First"
+            },
+            {
+                "header": "Last"
+            },
+            {
+                "header": "Handle"
+            }
+        ],
+        "dataRows": [
+            {
+                "rowHeaders": [
+                    {
+                        "header": "1"
+                    }
+                ],
+                "dataCells": [
+                    {
+                        "data": "Mark"
+                    },
+                    {
+                        "data": "Otto"
+                    },
+                    {
+                        "data": "&#64;mdo"
+                    }
+                ]
+            },
+            {
+                "rowHeaders": [
+                    {
+                        "header": "2"
+                    }
+                ],
+                "dataCells": [
+                    {
+                        "data": "Jacob"
+                    },
+                    {
+                        "data": "Thornton"
+                    },
+                    {
+                        "data": "&#64;fat"
+                    }
+                ]
+            },
+            {
+                "rowHeaders": [
+                    {
+                        "header": "3"
+                    }
+                ],
+                "dataCells": [
+                    {
+                        "data": "Larry"
+                    },
+                    {
+                        "data": "the Bird"
+                    },
+                    {
+                        "data": "&#64;Twitter"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+<div class="{{#if tableWrapperModifier}}{{tableWrapperModifier}}{{/if}}">
+	<table class="table{{#if tableModifier}} {{tableModifier}}{{/if}}" id="{{uniqueID}}">
+		{{~#if caption}}<caption>{{caption}}</caption>{{/if}}
+        {{#if columnHeaders}}
+        <thead>
+			<tr{{#if theadRowModifier}} class="{{theadRowModifier}}"{{/if}}>
+				{{#each columnHeaders}}
+				<th scope="col"{{#if theadHeaderModifier}} class="{{theadHeaderModifier}}"{{/if}}>{{header}}</th>
+				{{/each}}
+			</tr>
+		</thead>
+        {{/if}}
+        {{#if columnHeaders}}<tbody>{{/if}}
+			{{#each dataRows}}
+			<tr{{#if tbodyRowModifier}} class="{{tbodyRowModifier}}"{{/if}}>
+                {{#each rowHeaders}}<th scope="row"{{#if tbodyHeaderModifier}} class="{{tbodyHeaderModifier}}"{{/if}}>{{{header}}}</th>{{/each}}
+				{{#each dataCells}}<td{{#if tbodyCellModifier}} class="{{tbodyCellModifier}}"{{/if}}>{{{data}}}</td>{{/each}}
+			</tr>
+			{{/each}}
+        {{#if columnHeaders}}</tbody>{{/if}}
+	</table>
+</div>
+
