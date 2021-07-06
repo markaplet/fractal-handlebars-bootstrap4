@@ -1,7 +1,7 @@
 {
     "title": "Media Object",
     "hidden": false,
-    "status": "ready",
+    "status": "wip",
     "context": {
         "mediaObjectModifier": "",
         "mediaObjectImageURL": "holder.js/64x64",

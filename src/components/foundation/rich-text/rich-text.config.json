@@ -1,7 +1,7 @@
 {
     "title": "Rich Text",
     "hidden": false,
-    "status": "ready",
+    "status": "wip",
     "context": {
         "modifier": "",
         "decorator": "",
