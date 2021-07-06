@@ -1,0 +1,16 @@
+{
+    "title": "Modal",
+    "hidden": false,
+    "status": "prototype",
+    "context": {
+        "modalButtonLabel": "Launch demo modal",
+        "modalButtonModifier": "btn-primary",
+        "modalModifier": "fade",
+        "modalUniqueID": "exampleModal",
+        "modalTitle": "Modal Title",
+        "modalTitleUniqueID": "exampleModalLabel",
+        "modalHeadingLevel": "h5",
+        "modalContent": "Modal content here",
+        "modalFooterContent": "<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button><button type=\"button\" class=\"btn btn-primary\">Save changes</button>"
+    }
+}
