@@ -32,7 +32,7 @@ module.exports = [
     'node_modules/bootstrap/scss/_list-group.scss',
     'node_modules/bootstrap/scss/_media.scss',
     'node_modules/bootstrap/scss/_nav.scss',
-    // 'node_modules/bootstrap/scss/_navbar.scss',
+    'node_modules/bootstrap/scss/_navbar.scss',
     'node_modules/bootstrap/scss/_pagination.scss',
     'node_modules/bootstrap/scss/_progress.scss',
     'node_modules/bootstrap/scss/_tables.scss',

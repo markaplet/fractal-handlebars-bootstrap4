@@ -1,0 +1,25 @@
+<nav class="navbar{{#if navbarModifier}} {{navbarModifier}}{{/if}}">
+    <a class="navbar-brand" href="{{navbarBrandURL}}">{{{navbarBrandLabel}}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse{{#if navbarCollapseModifier}} {{navbarCollapseModifier}}{{/if}}" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+        {{#each navbarItems}}
+            <a class="nav-link{{#if navbarItemIsActive}} active{{/if}}
+                {{~#if navbarItemIsDisabled}} disabled{{/if}}"
+                href="{{navbarItemLinkURL}}"
+                {{~#if navbarItemIsDisabled}} tabindex="-1" aria-disabled="true"{{/if}}>
+                {{navbarItemLinkLabel}}{{#if navbarItemIsActive}} <span class="sr-only">(current)</span>{{/if}}</a>
+        {{/each}}
+        </div>
+        {{#if navbarSearch}}
+        <div class="search-form">
+            <form class="form-inline">
+                <input class="form-control{{#if navbarSearchInputModifier}} {{navbarSearchInputModifier}}{{/if}}" type="search" placeholder="{{navbarSearchPlaceholder}}" aria-label="{{navbarSearchLabel}}">
+                <button class="btn{{#if navbarSearchButtonModifier}} {{navbarSearchButtonModifier}}{{/if}}" type="submit">Search</button>
+            </form>
+        </div>
+        {{/if}}
+    </div>
+</nav>

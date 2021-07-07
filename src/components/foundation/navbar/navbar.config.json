@@ -1,0 +1,43 @@
+{
+    "title": "Navbar",
+    "hidden": false,
+    "status": "prototype",
+    "context": {
+        "navbarModifier": "navbar-expand-lg navbar-light bg-light",
+        "navbarBrandURL": "#",
+        "navbarBrandLabel": "Navbar",
+        "navbarCollapseModifier": "justify-content-between",
+        "navbarSearch": true,
+        "navbarSearchLabel": "Search",
+        "navbarSearchPlaceholder": "Search site",
+        "navbarSearchInputModifier": "mr-sm-2",
+        "navbarSearchButtonModifier": "btn-secondary my-2 my-sm-0",
+
+        "navbarItems": [
+            {
+                "navbarItemIsActive": true,
+                "navbarItemIsDisabled": false,
+                "navbarItemLinkURL": "#",
+                "navbarItemLinkLabel": "Home"
+            },
+            {
+                "navbarItemIsActive": false,
+                "navbarItemIsDisabled": false,
+                "navbarItemLinkURL": "#",
+                "navbarItemLinkLabel": "Features"
+            },
+            {
+                "navbarItemIsActive": false,
+                "navbarItemIsDisabled": false,
+                "navbarItemLinkURL": "#",
+                "navbarItemLinkLabel": "Pricing"
+            },
+            {
+                "navbarItemIsActive": false,
+                "navbarItemIsDisabled": true,
+                "navbarItemLinkURL": "#",
+                "navbarItemLinkLabel": "Disabled"
+            }
+        ]
+    }
+}
