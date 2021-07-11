@@ -1,0 +1,44 @@
+{
+    "title": "Image",
+    "hidden": false,
+    "status": "wip",
+    "context": {
+        "imageURL": "holder.js/800x200",
+        "imageModifier": "",
+        "imageAlt": "Example image alt text"
+    },
+    "variants": [
+        {
+            "name": "responsive",
+            "context": {
+                "imageURL": "holder.js/800x200",
+                "imageModifier": "img-fluid",
+                "imageAlt": "Responsive image example"
+            }
+        },
+        {
+            "name": "center aligned",
+            "context": {
+                "imageURL": "holder.js/200x200",
+                "imageModifier": "mx-auto d-block",
+                "imageAlt": "Center aligned image"
+            }
+        },
+        {
+            "name": "thumbnail",
+            "context": {
+                "imageURL": "holder.js/200x200",
+                "imageModifier": "img-thumbnail",
+                "imageAlt": "Image as thumbnail"
+            }
+        },
+        {
+            "name": "rounded image",
+            "context": {
+                "imageURL": "holder.js/200x200",
+                "imageModifier": "rounded-circle",
+                "imageAlt": "Rounded image example"
+            }
+        }
+    ]
+}
