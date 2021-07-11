@@ -1,0 +1,30 @@
+{
+    "status": "wip",
+    "hidden": false,
+    "context": {
+        "headingLevel": "h1",
+        "headingMainText": "Heading Level 1"
+    },
+    "variants": [
+        {
+            "name": "Display Heading",
+            "context": {
+                "headingLevel": "h2",
+                "headingMainText": "Heading Test",
+                "headingModifier": "display-1",
+                "headingMainModifier": "",
+                "headingPreModifier": ""
+            }
+        },
+        {
+            "name": "With Icon",
+            "context": {
+                "headingLevel": "h2",
+                "headingMainText": "Heading Test",
+                "headingModifier": "h4",
+                "headingMainModifier": "text-muted",
+                "headingPreModifier": "icon-twitter pr-2 text-primary"
+            }
+        }
+    ]
+}
